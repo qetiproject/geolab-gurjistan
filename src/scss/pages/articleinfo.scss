@@ -1,0 +1,13 @@
+.articles_content {
+	display: grid;
+}
+.author {
+	font-size: 18px;
+	padding-bottom: $distance;
+}
+.articles_detail {
+	padding: $distance;
+}
+.articles_detail p {
+	padding-top: $distance; 
+}

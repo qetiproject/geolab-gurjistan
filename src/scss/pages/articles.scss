@@ -1,0 +1,27 @@
+.articles_page {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.articles_item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.articles_item_title {
+	font-size: 30px;
+	color: $colorBlack;	
+	padding-bottom: 30px;
+}
+.articles_item_text {
+	overflow: hidden;
+	max-width: 365px;
+	height: 175px;
+	font-size: $textSize;
+}
+.more {
+ 	max-width: 150px;
+	text-align: center;
+	color: $colorWhite;
+	font-size: $textSize;
+	padding: $distance;
+	background-color: $hoverColor;
+}

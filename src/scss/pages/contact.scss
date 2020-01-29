@@ -1,0 +1,14 @@
+.contact_info {
+    padding: 0 30px;
+}
+.social_icons {
+    width: 100px;
+    @include flexSpaceBetween;
+}
+.contact_footer {
+    @include flexSpaceBetween;
+    padding: $distance 0;
+}
+.contact_footer {
+    position: relative;
+}

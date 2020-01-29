@@ -1,0 +1,38 @@
+// search_content
+.search_content_list.show {
+    display: block;
+}
+.search_content_list:first-child {
+    font-size: 24px
+}    
+.more_list {
+    color: $hoverColor;
+}
+.moreInfo {
+    font-size: 12px;
+    background: none;
+    border: none;
+}
+.personData {
+    display: none;
+    color: $colorList;
+    font-size: 13px;
+}
+.alphabet:visited {
+    color: $hoverColor;
+}
+.alphabetItem {
+    padding: 10px 0;
+}
+.alphabetItem a {
+    font-size: 13px;
+}
+.search_form input {
+    color: $colorList;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    margin: 0 5px;
+    background: none;
+    outline: none;
+}

@@ -1,0 +1,14 @@
+.about_page {
+	padding-bottom: 30px;
+}
+.about_content {
+    display: grid;
+    grid-template-rows: .3fr .1fr;
+}
+.about_content_title {
+	font-size: $titleSize;
+}
+.about_img img {
+	width: 100%;
+	object-fit: cover; 
+}

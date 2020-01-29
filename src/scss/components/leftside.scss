@@ -1,0 +1,24 @@
+// left_side
+.left_side {
+	display: flex;
+    flex-direction: column;
+    background-color: $leftSizeBackground;
+}
+.aside_navigation_item {
+	@include horCenter;
+	color: $colorWhite;
+	padding: 29px 0;
+	transition: 200ms;
+}
+.aside_navigation_item:hover {
+	background-color: $hoverColor;
+}
+
+.aside_navigation_item_title {
+	font-size: $textSize;
+	color: $colorWhite;
+	padding-bottom: 7px;
+}
+.count {
+	text-align: $textCenter;
+}
